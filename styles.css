@@ -1,0 +1,178 @@
+body {
+  background-image: url(https://t4.ftcdn.net/jpg/02/72/68/21/360_F_272682172_mfKJ6vOJ8jJIqTxWB2jqPVCdq9Hf1ide.jpg);
+}
+/*header*/
+.Welcome {
+  font-size: x-large;
+}
+.Welcome h1:hover {
+  color: red;
+}
+.Welcome {
+  font-family: 'Playfair Display', serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+h1 {
+  color: white;
+}
+h2 {
+  color: red;
+}
+h3 {
+  color: rgb(247, 7, 7);
+}
+h4 {
+  color: red;
+}
+/*header END*/
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: large;
+  text-decoration: none;
+}
+.left {
+  float: left;
+}
+/*Main Series Game decoration*/
+p {
+  line-height: 1.5;
+}
+.Gen1 {
+  color: rgb(14, 172, 235);
+  font-size: large;
+  text-shadow: 7px 6px 5px rgb(73, 73, 61);
+}
+.Gen2 {
+  color: yellow;
+  font-size: large;
+}
+.Gen3 {
+  color: red;
+  font-size: large;
+}
+.Gen4 {
+  color: white;
+  font-size: large;
+}
+.Gen5and6 {
+  color: yellow;
+  font-size: large;
+}
+.Gen7and8 {
+  color: white;
+  font-size: large;
+}
+/*Main Series Game decoration END*/
+/*review and ranking decoration*/
+.ranking ::after {
+  content: url(https://static.vecteezy.com/system/resources/thumbnails/017/178/285/small_2x/4-stars-rating-sign-and-symbol-on-transparent-background-free-png.png);
+  color: #ff0000;
+}
+ol {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+li {
+  flex: 0 0 auto;
+  color: white;
+  margin: 15px;
+}
+/*review and ranking decoration END*/
+/*game info*/
+.gameinfocolor {
+  color: aqua;
+  font-size: large;
+}
+.gameinfocolor2 {
+  color: lawngreen;
+  font-size: large;
+}
+.form-group {
+  color: white;
+}
+/*game info decoration END*/
+/*button*/
+.button {
+  background-color: rgb(225, 0, 0);
+  position: relative;
+  border-radius: 15px;
+  box-shadow: 7px 5px 8px 8px rgb(14, 13, 13);
+  transition: 1.6s;
+  color: white;
+  padding: 5px;
+}
+.button:hover {
+  background-color: rgb(0, 0, 0);
+  transform: rotate(360deg);
+}
+/*button END*/
+@media screen and (max-width: 600px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+  }
+  nav a {
+    margin: 20px;
+    padding: 5px;
+  }
+
+  /* Specific adjustments for headers */
+  h1,
+  h3,
+  h4 {
+    font-size: 1.4em; /* Adjust heading sizes for better readability */
+  }
+
+  /* Specific adjustments for paragraphs */
+  p {
+    font-size: 1.4em; /* Adjust paragraph text size */
+  }
+
+  /* Adjust specific classes or IDs */
+  .Welcome h1 {
+    font-size: 1.4em; /* Example adjustment for specific heading */
+  }
+
+  .Gen1 p,
+  .Gen2 p,
+  .Gen3 p,
+  .Gen4 p,
+  .Gen5and6 p,
+  .Gen7and8 p,
+  .gameinfocolor p,
+  .gameinfocolor2 p,
+  ol li {
+    font-size: 1.3em; /* Adjust paragraph text size in specific sections */
+  }
+}
+/*Images*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
+}
+.Pikachu {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
+}
+.Pikachu:hover {
+  transform: scale(1.2);
+}
